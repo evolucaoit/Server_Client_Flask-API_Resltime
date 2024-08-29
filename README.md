@@ -8,6 +8,25 @@ Este projeto é uma **micro aplicação** prática que demonstra a integração 
 2. **Cliente Flask**: Consome a API, coleta dados e os grava em um banco de dados SQLite.
 3. **Gerador de Dados**: Gera e atualiza registros de vendas em um arquivo JSON.
 
+## 📊 **Diagramas do Projeto**
+
+### 1. **Diagrama do Servidor Flask** 🖥️
+
+```mermaid
+graph TD
+    A[Início] --> B[Carregar Dados]
+    B --> C[Configurar Flask e JWT]
+    C --> D[Iniciar Thread para Monitoramento]
+    D --> E[Escutar Requisições]
+    E --> F[Autenticação com JWT]
+    E --> G[Servir Dados]
+    F --> H[Login]
+    G --> I[Retornar Dados]
+    H --> I
+    I --> J[Resposta ao Cliente]
+
+```
+
 ### 📂 **Componentes Principais**
 
 - **Servidor Flask**: [🔗 `server.py`](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime/blob/main/server.py)
@@ -18,6 +37,26 @@ Este projeto é uma **micro aplicação** prática que demonstra a integração 
 
 - **Cliente Flask**: [🔗 `client.py`](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime/blob/main/client.py)
   - O cliente consome a API do servidor, processa os dados e armazena informações no banco de dados SQLite. Ele também utiliza JWT para autenticar as requisições. 🗃️
+
+```mermaid
+graph TD
+    A[Início] --> B[Autenticar com Servidor]
+    B --> C[Obter Token JWT]
+    C --> D[Buscar Dados da API]
+    D --> E[Verificar ID no Banco]
+    E --> F[Inserir Novo Usuário]
+    F --> G[Registro no Banco]
+    G --> H[Repetir Busca]
+```
+
+```mermaid
+graph TD
+    A[Início] --> B[Ler Dados do Arquivo]
+    B --> C[Gerar Novo Registro]
+    C --> D[Salvar Registro no Arquivo]
+    D --> E[Aguardar 1 Segundo]
+    E --> F[Repetir Processo]
+```
 
 ### 🌐 **Como Funciona**
 
