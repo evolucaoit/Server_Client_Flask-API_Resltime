@@ -8,6 +8,16 @@ Este projeto é uma **micro aplicação** prática que demonstra a integração 
 2. **Cliente Flask**: Consome a API, coleta dados e os grava em um banco de dados SQLite.
 3. **Gerador de Dados**: Gera e atualiza registros de vendas em um arquivo JSON.
 
+## 🎯 **Propósito dos Repositórios** 🚀
+
+Meu objetivo ao criar e compartilhar esses repositórios é construir um portfólio robusto que demonstra minhas habilidades e projetos de forma concreta. 💼🔍 Muitas vezes, ter projetos é apenas o primeiro passo; falar sobre eles não é suficiente para mostrar o verdadeiro potencial do trabalho realizado. 🌟
+
+**Por isso, estou compartilhando meus projetos aqui**: para mostrar não apenas o que eu sou capaz de fazer, mas também como eu aplico minhas habilidades em soluções práticas e eficientes. 💡🔧
+
+Cada repositório representa um projeto real, com códigos, diagramas e explicações detalhadas que evidenciam a profundidade e a qualidade do meu trabalho. 📊✨
+
+Explore meus projetos para ver o que realmente posso oferecer e como posso agregar valor a futuros desafios e oportunidades. 🤝🌟
+
 ## 📊 **Diagramas do Projeto**
 
 ### 1. **Diagrama do Servidor Flask** 🖥️
