@@ -1,71 +1,43 @@
-# 🌐 Server-Client Flask API Real-Time
+## 🚀 **Server-Client Flask API Real-Time**
 
-Bem-vindo ao repositório **Server-Client Flask API Real-Time**! Este projeto é uma micro aplicação prática que demonstra a criação e integração de um servidor e cliente usando **Flask**, **JWT** (JSON Web Tokens) e **SQLite**. O projeto inclui um gerador de dados que produz registros de vendas em tempo real, e o cliente consome a API para gravar dados novos e únicos em um banco SQLite.
+### 🌟 **Visão Geral do Projeto**
 
-## 🧩 **Visão Geral do Projeto**
+Este projeto é uma **micro aplicação** prática que demonstra a integração entre um servidor e um cliente usando **Flask**, **JWT**, e **SQLite**. A aplicação é composta por três partes principais:
 
-Este projeto consiste em três componentes principais:
+1. **Servidor Flask**: Lê dados em tempo real de um arquivo JSON e fornece esses dados via API.
+2. **Cliente Flask**: Consome a API, coleta dados e os grava em um banco de dados SQLite.
+3. **Gerador de Dados**: Gera e atualiza registros de vendas em um arquivo JSON.
 
-1. **Servidor Flask**: Um servidor que lê dados em tempo real de um arquivo JSON e fornece esses dados através de uma API RESTful.
-2. **Cliente Flask**: Um cliente que consome a API do servidor, coleta dados e os grava em um banco de dados SQLite.
-3. **Gerador de Dados**: Um script que gera registros de vendas e os salva em um arquivo JSON para ser consumido pelo servidor.
+### 📂 **Componentes Principais**
 
+- **Servidor Flask**: [🔗 `server.py`](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime/blob/main/server.py)
+  - O servidor expõe uma API RESTful que lê e serve dados de `data.json` para o cliente. Ele também gerencia a autenticação com JWT para garantir segurança nas comunicações. 🔐
 
-### 📚 **Componentes do Projeto**
+- **Gerador de Dados**: [🔗 `gera-registro-json-data.py`](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime/blob/main/gera-registro-json-data.py)
+  - Este script gera registros de vendas e os salva em `data.json`, simulando uma fonte de dados em tempo real. 📈
 
-#### 1. **Servidor Flask**
+- **Cliente Flask**: [🔗 `client.py`](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime/blob/main/client.py)
+  - O cliente consome a API do servidor, processa os dados e armazena informações no banco de dados SQLite. Ele também utiliza JWT para autenticar as requisições. 🗃️
 
-O servidor Flask é responsável por:
+### 🌐 **Como Funciona**
 
-- **Autenticação**: Utiliza **JWT** para autenticar requisições e garantir a segurança na comunicação entre cliente e servidor.
-- **API RESTful**: Oferece uma API que lê dados de um arquivo JSON (`data.json`) e serve esses dados em tempo real para o cliente.
-- **Leitura de Dados**: O servidor lê e processa os dados em `data.json` para disponibilizá-los via API.
+1. **Inicie o Servidor**: Execute o `server.py` para iniciar o servidor Flask que fornece a API.
+2. **Execute o Gerador de Dados**: Rode `gera-registro-json-data.py` para criar e atualizar `data.json` com novos registros de vendas.
+3. **Inicie o Cliente**: Execute o `client.py` para consumir os dados da API e gravá-los no banco de dados SQLite.
 
-#### 2. **Cliente Flask**
+### 🔧 **Tecnologias Utilizadas**
 
-O cliente Flask realiza as seguintes funções:
+- **Flask**: Framework web para criar APIs RESTful. 🧩
+- **JWT (JSON Web Tokens)**: Para autenticação segura. 🔒
+- **SQLite**: Banco de dados para armazenamento local. 💾
 
-- **Consumo da API**: Conecta-se à API do servidor para obter dados.
-- **Gravação no Banco de Dados**: Processa e grava registros novos e únicos em um banco de dados SQLite.
-- **Autenticação JWT**: Usa JWT para autenticar as requisições feitas ao servidor, garantindo a comunicação segura.
+### 🎯 **O Que Este Projeto Demonstra**
 
-#### 3. **Gerador de Dados**
+- **Integração Server-Client**: Como construir e conectar um servidor e cliente usando Flask e JWT.
+- **Gerenciamento de Dados em Tempo Real**: Processamento e armazenamento de dados dinâmicos.
+- **Segurança com JWT**: Implementação de autenticação segura em APIs.
 
-O gerador de dados é responsável por:
-
-- **Criação de Dados**: Gera registros de vendas e os salva em um arquivo `data.json`.
-- **Atualização Contínua**: O gerador pode ser configurado para produzir dados em intervalos regulares, simulando uma fonte de dados em tempo real.
-
-## 🛠️ **Tecnologias Utilizadas**
-
-- **Flask**: Framework web para construir a API RESTful.
-- **JWT (JSON Web Tokens)**: Utilizado para autenticação segura entre o cliente e o servidor.
-- **SQLite**: Banco de dados leve e eficiente para armazenamento local dos dados pelo cliente.
-- **RESTful API**: Estrutura de comunicação que permite a troca de informações entre o cliente e o servidor.
-
-## 🚀 **Como Funciona**
-
-1. **Configuração Inicial**:
-   - **Servidor**: Inicie o servidor Flask, que estará escutando por requisições e servindo dados em tempo real.
-   - **Gerador de Dados**: Execute o gerador de dados para criar o arquivo `data.json` com registros de vendas.
-   - **Cliente**: Inicie o cliente Flask, que se conectará à API do servidor, consumirá os dados e gravará no banco de dados SQLite.
-
-2. **Fluxo de Dados**:
-   - O **gerador de dados** cria e atualiza o arquivo `data.json` com novos registros de vendas.
-   - O **servidor Flask** lê esse arquivo e expõe os dados através de uma API RESTful.
-   - O **cliente Flask** consome a API do servidor, processa os dados recebidos e os armazena em um banco de dados SQLite.
-
-3. **Autenticação**:
-   - O cliente deve autenticar suas requisições usando **JWT**, que é gerado e validado pelo servidor para assegurar a integridade e segurança das comunicações.
-
-## 📑 **O que Este Projeto Demonstra**
-
-- **Integração de Componentes**: Demonstra a integração entre um servidor e cliente utilizando Flask e JWT.
-- **Criação de APIs RESTful**: Mostra como construir e consumir APIs RESTful com Flask.
-- **Gerenciamento de Dados em Tempo Real**: Implementa um sistema que lida com dados gerados em tempo real e sua persistência em um banco de dados.
-- **Segurança com JWT**: Utiliza JWT para autenticar e garantir a segurança das comunicações entre o cliente e o servidor.
-
-## 🔗 **Links Relevantes**
+### 🌟 **Links Importantes**
 
 - **Repositório do Projeto**: [Server_Client_Flask-API_Resltime](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime)
 - **Portfólio**: [Evolução IT](https://github.com/evolucaoit)
@@ -74,7 +46,6 @@ O gerador de dados é responsável por:
 
 ---
 
-Espero que este projeto ilustre minha capacidade de integrar e implementar soluções complexas utilizando uma stack moderna e segura. Se você tiver perguntas ou estiver interessado em colaborar, sinta-se à vontade para entrar em contato!
+🚀 Explore o projeto e descubra como construir uma solução prática e segura com Flask e JWT. Se tiver dúvidas ou quiser colaborar, entre em contato!
 
-*Elias Andrade*
-
+*Elias Andrade* 🌟
