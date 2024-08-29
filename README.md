@@ -12,6 +12,13 @@ Este projeto é uma **micro aplicação** prática que demonstra a integração 
 
 ### 1. **Diagrama do Servidor Flask** 🖥️
 
+
+
+### 📂 **Componentes Principais**
+
+- **Servidor Flask**: [🔗 `server.py`](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime/blob/main/server.py)
+  - O servidor expõe uma API RESTful que lê e serve dados de `data.json` para o cliente. Ele também gerencia a autenticação com JWT para garantir segurança nas comunicações. 🔐
+
 ```mermaid
 graph TD
     A[Início] --> B[Carregar Dados]
@@ -27,13 +34,17 @@ graph TD
 
 ```
 
-### 📂 **Componentes Principais**
-
-- **Servidor Flask**: [🔗 `server.py`](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime/blob/main/server.py)
-  - O servidor expõe uma API RESTful que lê e serve dados de `data.json` para o cliente. Ele também gerencia a autenticação com JWT para garantir segurança nas comunicações. 🔐
-
 - **Gerador de Dados**: [🔗 `gera-registro-json-data.py`](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime/blob/main/gera-registro-json-data.py)
   - Este script gera registros de vendas e os salva em `data.json`, simulando uma fonte de dados em tempo real. 📈
+
+```mermaid
+graph TD
+    A[Início] --> B[Ler Dados do Arquivo]
+    B --> C[Gerar Novo Registro]
+    C --> D[Salvar Registro no Arquivo]
+    D --> E[Aguardar 1 Segundo]
+    E --> F[Repetir Processo]
+```
 
 - **Cliente Flask**: [🔗 `client.py`](https://github.com/evolucaoit/Server_Client_Flask-API_Resltime/blob/main/client.py)
   - O cliente consome a API do servidor, processa os dados e armazena informações no banco de dados SQLite. Ele também utiliza JWT para autenticar as requisições. 🗃️
@@ -49,14 +60,7 @@ graph TD
     G --> H[Repetir Busca]
 ```
 
-```mermaid
-graph TD
-    A[Início] --> B[Ler Dados do Arquivo]
-    B --> C[Gerar Novo Registro]
-    C --> D[Salvar Registro no Arquivo]
-    D --> E[Aguardar 1 Segundo]
-    E --> F[Repetir Processo]
-```
+
 
 ### 🌐 **Como Funciona**
 
