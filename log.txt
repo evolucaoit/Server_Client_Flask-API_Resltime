@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "nome": "Ana Silva",
+        "email": "ana.silva@empresa.com",
+        "departamento": "Vendas"
+    },
+    {
+        "id": 2,
+        "nome": "Carlos Pereira",
+        "email": "carlos.pereira@empresa.com",
+        "departamento": "Marketing"
+    },
+    {
+        "id": 3,
+        "nome": "Maria Oliveira",
+        "email": "maria.oliveira@empresa.com",
+        "departamento": "TI"
+    },
+    {
+        "id": 4,
+        "nome": "João Souza",
+        "email": "joao.souza@empresa.com",
+        "departamento": "Financeiro"
+    },
+    {
+        "id": 5,
+        "nome": "Paulo Lima",
+        "email": "paulo.lima@empresa.com",
+        "departamento": "RH"
+    },
+    {
+        "id": 6,
+        "nome": "Fernanda Costa",
+        "email": "fernanda.costa@empresa.com",
+        "departamento": "Operações"
+    },
+    {
+        "id": 7,
+        "nome": "Bruno Gomes",
+        "email": "bruno.gomes@empresa.com",
+        "departamento": "Logística"
+    },
+    {
+        "id": 8,
+        "nome": "Renata Almeida",
+        "email": "renata.almeida@empresa.com",
+        "departamento": "Compras"
+    },
+    {
+        "id": 9,
+        "nome": "Marcelo Barbosa",
+        "email": "marcelo.barbosa@empresa.com",
+        "departamento": "Qualidade"
+    },
+    {
+        "id": 10,
+        "nome": "Juliana Castro",
+        "email": "juliana.castro@empresa.com",
+        "departamento": "Desenvolvimento"
+    },
+    {
+        "id": 11,
+        "nome": "Rodrigo Fernandes",
+        "email": "rodrigo.fernandes@empresa.com",
+        "departamento": "Vendas"
+    },
+    {
+        "id": 12,
+        "nome": "Beatriz Nogueira",
+        "email": "beatriz.nogueira@empresa.com",
+        "departamento": "Marketing"
+    },
+    {
+        "id": 13,
+        "nome": "Pedro Santos",
+        "email": "pedro.santos@empresa.com",
+        "departamento": "TI"
+    },
+    {
+        "id": 14,
+        "nome": "Tatiana Rocha",
+        "email": "tatiana.rocha@empresa.com",
+        "departamento": "Financeiro"
+    },
+    {
+        "id": 15,
+        "nome": "Eduardo Mello",
+        "email": "eduardo.mello@empresa.com",
+        "departamento": "RH"
+    },
+    {
+        "id": 16,
+        "nome": "Camila Azevedo",
+        "email": "camila.azevedo@empresa.com",
+        "departamento": "Operações"
+    },
+    {
+        "id": 17,
+        "nome": "Luiz Martins",
+        "email": "luiz.martins@empresa.com",
+        "departamento": "Logística"
+    },
+    {
+        "id": 18,
+        "nome": "Patrícia Ribeiro",
+        "email": "patricia.ribeiro@empresa.com",
+        "departamento": "Compras"
+    },
+    {
+        "id": 19,
+        "nome": "Fernando Dias",
+        "email": "fernando.dias@empresa.com",
+        "departamento": "Qualidade"
+    },
+    {
+        "id": 20,
+        "nome": "Aline Santos",
+        "email": "aline.santos@empresa.com",
+        "departamento": "Desenvolvimento"
+    }
+]

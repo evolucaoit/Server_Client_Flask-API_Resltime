@@ -1,0 +1,164 @@
+[
+    {
+        "id": 1,
+        "nome": "Agatha Porto",
+        "email": "msampaio@example.org",
+        "departamento": "Qualidade"
+    },
+    {
+        "id": 2,
+        "nome": "Maria Flor da Costa",
+        "email": "nogueiracaio@example.com",
+        "departamento": "Logística"
+    },
+    {
+        "id": 3,
+        "nome": "Ana Julia Monteiro",
+        "email": "lorenzojesus@example.net",
+        "departamento": "Qualidade"
+    },
+    {
+        "id": 4,
+        "nome": "Catarina Costa",
+        "email": "gabriel94@example.net",
+        "departamento": "Logística"
+    },
+    {
+        "id": 5,
+        "nome": "Arthur Moraes",
+        "email": "bentooliveira@example.com",
+        "departamento": "Operações"
+    },
+    {
+        "id": 6,
+        "nome": "Ana Julia Novaes",
+        "email": "renan19@example.com",
+        "departamento": "Logística"
+    },
+    {
+        "id": 7,
+        "nome": "Heloisa Farias",
+        "email": "ana-carolina96@example.com",
+        "departamento": "Compras"
+    },
+    {
+        "id": 8,
+        "nome": "Heitor Pacheco",
+        "email": "qsilva@example.net",
+        "departamento": "Logística"
+    },
+    {
+        "id": 9,
+        "nome": "Dr. Vitor Hugo Cirino",
+        "email": "juan18@example.net",
+        "departamento": "RH"
+    },
+    {
+        "id": 10,
+        "nome": "Miguel Siqueira",
+        "email": "sophiebarbosa@example.net",
+        "departamento": "Financeiro"
+    },
+    {
+        "id": 11,
+        "nome": "Maria Julia Barros",
+        "email": "iandrade@example.com",
+        "departamento": "Qualidade"
+    },
+    {
+        "id": 12,
+        "nome": "Camila Leão",
+        "email": "joaquimfreitas@example.org",
+        "departamento": "TI"
+    },
+    {
+        "id": 13,
+        "nome": "Ágatha Rios",
+        "email": "guerralorenzo@example.org",
+        "departamento": "Financeiro"
+    },
+    {
+        "id": 14,
+        "nome": "Isabella Andrade",
+        "email": "lorenzoalbuquerque@example.net",
+        "departamento": "Qualidade"
+    },
+    {
+        "id": 15,
+        "nome": "Gabrielly Duarte",
+        "email": "vsilva@example.net",
+        "departamento": "Desenvolvimento"
+    },
+    {
+        "id": 16,
+        "nome": "Maria Clara Pacheco",
+        "email": "melina59@example.net",
+        "departamento": "Vendas"
+    },
+    {
+        "id": 17,
+        "nome": "Milena Vasconcelos",
+        "email": "ian23@example.org",
+        "departamento": "TI"
+    },
+    {
+        "id": 18,
+        "nome": "Fernando Ramos",
+        "email": "pietra27@example.org",
+        "departamento": "Operações"
+    },
+    {
+        "id": 19,
+        "nome": "Pedro Henrique Cavalcanti",
+        "email": "liviavasconcelos@example.com",
+        "departamento": "Operações"
+    },
+    {
+        "id": 20,
+        "nome": "Letícia Silveira",
+        "email": "antony32@example.org",
+        "departamento": "Marketing"
+    },
+    {
+        "id": 21,
+        "nome": "Maria Clara Costa",
+        "email": "pimentalucas-gabriel@example.com",
+        "departamento": "Operações"
+    },
+    {
+        "id": 22,
+        "nome": "Natália Lopes",
+        "email": "bella09@example.com",
+        "departamento": "Compras"
+    },
+    {
+        "id": 23,
+        "nome": "Dr. Alexandre Sampaio",
+        "email": "carolineguerra@example.com",
+        "departamento": "RH"
+    },
+    {
+        "id": 24,
+        "nome": "Isabela Gomes",
+        "email": "cirinoana-livia@example.net",
+        "departamento": "Compras"
+    },
+    {
+        "id": 25,
+        "nome": "Daniela Fogaça",
+        "email": "luiz-gustavo85@example.org",
+        "departamento": "Desenvolvimento"
+    },
+    {
+        "id": 26,
+        "nome": "Calebe Novaes",
+        "email": "castrodavi@example.net",
+        "departamento": "Financeiro"
+    },
+    {
+        "id": 27,
+        "nome": "Luna Ferreira",
+        "email": "abreubenjamin@example.org",
+        "departamento": "Financeiro"
+    }
+]
